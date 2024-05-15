@@ -5,6 +5,7 @@
   font-family: sans-serif;
   list-style: none;
   text-decoration: none;
+  
   border: 0;
   outline: 0;
   font-family: 'Agbalumo', sans-serif;
@@ -146,4 +147,103 @@ header label{
 #menu:checked ~ label .fa-times{
   display: block;
 }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  width: 100%;
+  min-height: 28rem;
+padding: 2rem 8%;
+}
+
+.footer-top-container {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-top-container .left-side ul{
+display: flex;
+flex-direction: row;
+}
+
+.footer-top-container .left-side ul li {
+  margin: 0rem 2rem;
+}
+
+.footer-top-container .left-side ul li a{
+  color: black;
+  font-size: 1.7rem;
+}
+
+.right-side {
+display: flex;
+align-items: center;
+gap: 5rem;
+}
+
+.right-side ul li a {
+  color: black;
+  font-size: 1.7rem;
+}
+
+.footer-top-container button{
+  display: inline-block;
+  flex-direction: row;
+  font-weight: 15rem;
+  height: 5rem;
+  background: #8ab3f1;
+  border-radius: .5rem;
+  color: #fff;
+  font-size: 2rem;
+  box-shadow: 0rem .5rem 1rem rgba(0, 0, 0, .5);
+  cursor: pointer;
+  padding: .5rem .5rem;
+}
+
+footer .line{
+margin-top: 3.5rem;
+width: 100%;
+height: 0.1rem;
+background: rgba(0, 0, 0, .1)
+}
+
+.footer-buttom-container{
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footer-buttom-container .copyright{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.footer-buttom-container .copyright p{
+  font-size: 1.5rem;
+}
+
+.footer-buttom-container .social-media-icons img{
+  display: flex;
+  align-items: center;
+}
+
+.footer-buttom-container .social-media-icons{
+  
+}
+
+.media{
+  height: 2.5%;
+  width: 2.5%;
+  margin: 0rem 0.5rem;
+cursor: pointer;
 }
